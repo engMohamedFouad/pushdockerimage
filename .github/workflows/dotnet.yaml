@@ -42,5 +42,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
+        file: ./GithubActions/Dockerfile
         push: true
         tags: mohamedfouadmohamed/test:latest
